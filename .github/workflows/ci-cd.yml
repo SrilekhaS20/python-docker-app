@@ -45,4 +45,4 @@ jobs:
 
       - name: Update ECS Service
         run: |
-          aws ecs update-service --cluster python cluster --service flask-app --force-new-deployment
+          aws ecs update-service --cluster python-flask-cluster --service flask-service --force-new-deployment
